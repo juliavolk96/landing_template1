@@ -1,0 +1,24 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section Animations */
+.animate__animated {
+  animation-duration: 1s;
+}
+
+/* Features Section */
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Contact Section */
+textarea {
+  resize: none;
+}
